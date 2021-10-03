@@ -1,0 +1,10 @@
+td {
+  background-color: #BA7A3A;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+}
+
+.noPieceHere {
+  background-color: #F0D2B4;
+}
