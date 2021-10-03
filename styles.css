@@ -1,10 +1,27 @@
-td {
-  background-color: #BA7A3A;
-  width: 65px;
-  height: 65px;
-  text-align: center;
+.chessboard {
+width: 480px;
+height: 480px;
+margin: 1px;
+border: 2px solid #A0522D;
 }
 
-.noPieceHere {
-  background-color: #F0D2B4;
+.tan, .sienna {
+    float: left;
+    width: 60px;
+    height: 60px;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    box-sizing: border-box;
 }
+
+.tan {
+    background-color: #D2B48C;
+}
+
+.sienna {
+    background-color: #A0522D;
+}
+
+
